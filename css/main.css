@@ -36,7 +36,7 @@ html {
     position: relative;
     font-family: 'Montez', cursive;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #F8988E;
     z-index: 6;
 }
@@ -53,6 +53,7 @@ header {
     background-image: image(..//images/1.jpg);
     width: 100%;
     height: 100vh;
+    
 }
 
 .flower-1 {
@@ -98,27 +99,42 @@ header {
     z-index: 1;
 }
 
+.button {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: swirl 7s ease-in-out normal infinite;
+    animation: swirl 7s ease-in-out normal infinite;
+}
+    
+    
+    
+    
+
 @-webkit-keyframes flower-1 {
     0% {
-        -webkit-transform: translateY(0) rotate(0deg);
+        -webkit-transform: translateY(0) rotate(0deg) opacity: 100;
     }
     40% {
         -webkit-transform: translateY(56px) rotate(40deg);
     }
+    
     60% {
         -webkit-transform: translateY(112px) rotate(80deg);
     }
     80% {
-        -webkit-transform: translateY(168px) rotate(120deg);
+        -webkit-transform: translateY(168px) rotate(120deg) opacity: 50;
     }
     100% {
-        -webkit-transform: translateY(224px) rotate(160deg);
+        -webkit-transform: translateY(224px) rotate(160deg) opacity: 0;
     }
 }
 
 @keyframes flower-1 {
     0% {
-        transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg) opacity: 100;
     }
     40% {
         transform: translateY(56px) rotate(40deg);
@@ -127,10 +143,10 @@ header {
         transform: translateY(112px) rotate(80deg);
     }
     80% {
-        transform: translateY(168px) rotate(120deg);
+        transform: translateY(168px) rotate(120deg) opacity: 50;
     }
     100% {
-        transform: translateY(224px) rotate(160deg);
+        transform: translateY(224px) rotate(160deg) opacity: 0;
     }
 }
 
@@ -247,6 +263,20 @@ header {
         transform: translateY(240px) rotate(160deg);
     }
 }
+
+
+@keyframes swirl {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    
+   100%{
+       transform: translateY(80px) rotate(360deg);
+    }
+}
+
+
+
 
 @media only screen and (min-width: 38em) {
     .flower-1 {
