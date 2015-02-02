@@ -18,6 +18,7 @@
     width: device-width;
     scale: 1;
 }
+
 html {
     box-sizing: border-box;
     -moz-text-size-adjust: 100%;
@@ -30,49 +31,61 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
 .header-title {
+    position: relative;
     font-family: 'Montez', cursive;
     text-align: center;
     font-size: 4rem;
     color: #F8988E;
+    z-index: 6;
 }
+
 .text-center {
     text-align: center;
 }
+
 .sub-title {
     color: #BFBDBC;
+    z-index: 5;
 }
 header {
     background-image: image(..//images/1.jpg);
     width: 100%;
     height: 100vh;
 }
+
 .flower-1 {
     position: absolute;
     top: 0px;
     left: 230px;
     width: 25px;
     height: 25px;
-    -webkit-animation: flower-1 10s eae-in-out normal  infinite;
+    -webkit-animation: flower-1 10s eae-in-out normal infinite;
     animation: flower-1 10s ease-in-out normal infinite;
+    z-index: 4;
 }
+
 .flower-2 {
     position: absolute;
     top: 0px;
     left: 70px;
     width: 30px;
     height: 30px;
-    -webkit-animation: flower-2 17s ease-in-out normal infinite ;
+    -webkit-animation: flower-2 17s ease-in-out normal infinite;
     animation: flower-2 17s ease-in-out normal infinite;
+    z-index: 3;
 }
+
 .flower-3 {
     position: absolute;
     top: 0px;
     left: 280px;
     width: 30px;
     height: 30px;
-    -webkit-animation: flower-3 15s ease-in-out normal infinite ;
+    -webkit-animation: flower-3 15s ease-in-out normal infinite;
     animation: flower-3 15s ease-in-out normal infinite;
+    z-index: 2;
 }
 .flower-4 {
     position: absolute;
@@ -80,11 +93,28 @@ header {
     left: 25px;
     width: 30px;
     height: 30px;
-    -webkit-animation: flower-4 20s ease-in-out normal infinite ;
+    -webkit-animation: flower-4 20s ease-in-out normal infinite;
     animation: flower-4 20s ease-in-out normal infinite;
+    z-index: 1;
 }
 
-
+@-webkit-keyframes flower-1 {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+    }
+    40% {
+        -webkit-transform: translateY(56px) rotate(40deg);
+    }
+    60% {
+        -webkit-transform: translateY(112px) rotate(80deg);
+    }
+    80% {
+        -webkit-transform: translateY(168px) rotate(120deg);
+    }
+    100% {
+        -webkit-transform: translateY(224px) rotate(160deg);
+    }
+}
 
 @keyframes flower-1 {
     0% {
@@ -104,7 +134,23 @@ header {
     }
 }
 
-
+@-webkit-keyframes flower-2 {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+    }
+    40% {
+        -webkit-transform: translateY(50px) rotate(40deg);
+    }
+    60% {
+        -webkit-transform: translateY(100px) rotate(80deg);
+    }
+    80% {
+        -webkit-transform: translateY(150px) rotate(120deg);
+    }
+    100% {
+        -webkit-transform: translateY(200px) rotate(160deg);
+    }
+}
 
 @keyframes flower-2 {
     0% {
@@ -124,7 +170,26 @@ header {
     }
 }
 
-
+@-webkit-keyframes flower-3 {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+    }
+    20% {
+        -webkit-transform: translateY(35px) rotate(40deg);
+    }
+    40% {
+        -webkit-transform: translateY(70px) rotate(80deg);
+    }
+    60% {
+        -webkit-transform: translateY(105px) rotate(120deg);
+    }
+    80% {
+        -webkit-transform: translateY(140px) rotate(120deg);
+    }
+    100% {
+        -webkit-transform: translateY(175px) rotate(160deg);
+    }
+}
 
 @keyframes flower-3 {
     0% {
@@ -142,13 +207,28 @@ header {
     80% {
         transform: translateY(140px) rotate(120deg);
     }
-    
     100% {
         transform: translateY(175px) rotate(160deg);
     }
 }
 
-
+@-webkit-keyframes flower-4 {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translateY(60px) rotate(40deg);
+    }
+    50% {
+        -webkit-transform: translateY(120px) rotate(80deg);
+    }
+    75% {
+        -webkit-transform: translateY(180px) rotate(120deg);
+    }
+    100% {
+        -webkit-transform: translateY(240px) rotate(160deg);
+    }
+}
 
 @keyframes flower-4 {
     0% {
@@ -170,66 +250,46 @@ header {
 
 @media only screen and (min-width: 38em) {
     .flower-1 {
-     top: ;
-    left: ;
-    width: 50px;
-    height: 50px;
+        left: 400px;
+        width: 50px;
+        height: 50px;
     }
-    
     .flower-2 {
-    top: ;
-    left: ;
-    width: 50px;
-    height: 50px;
+        left: 150px;
+        width: 50px;
+        height: 50px;
     }
-    
     .flower-3 {
-    top: ;
-    left: ;
-    width: 50px;
-    height: 50px;
+        left: 550px;
+        width: 50px;
+        height: 50px;
     }
-    
     .flower-4 {
-    top: ;
-    left: ;
-    width: 50px;
-    height: 50px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
     }
-}    
- @media only screen and (min-width: 60em) {
-   .flower-1 {
-    top: ;
-    left: ;
-    width: 75px;
-    height: 75px;
+}
+
+@media only screen and (min-width: 60em) {
+    .flower-1 {
+        left: 970px;
+        width: 75px;
+        height: 75px;
     }
-    
     .flower-2 {
-    top: ;
-    left: ;
-    width: 75px;
-    height: 75px;
+        left: 375px;
+        width: 75px;
+        height: 75px;
     }
-    
     .flower-3 {
-    top: ;
-    left: ;
-    width: 75px;
-    height: 75px;
+        left: 1200px;
+        width: 75px;
+        height: 75px;
     }
-    
     .flower-4 {
-    top: ;
-    left: ;
-    width: 75px;
-    height: 75px;
+        left: 125px;
+        width: 75px;
+        height: 75px;
     }
- }
-     
-     
-     
-     
-     
-     
-     
+}
