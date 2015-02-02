@@ -50,27 +50,27 @@ header {
 .flower-1 {
     position: absolute;
     top: 0px;
-    left: 360px;
-    width: 50px;
-    height: 50px;
+    left: 230px;
+    width: 25px;
+    height: 25px;
     -webkit-animation: flower-1 10s eae-in-out normal  infinite;
     animation: flower-1 10s ease-in-out normal infinite;
 }
 .flower-2 {
     position: absolute;
     top: 0px;
-    left: 50px;
-    width: 75px;
-    height: 50px;
+    left: 70px;
+    width: 30px;
+    height: 30px;
     -webkit-animation: flower-2 17s ease-in-out normal infinite ;
     animation: flower-2 17s ease-in-out normal infinite;
 }
 .flower-3 {
     position: absolute;
     top: 0px;
-    left: 400px;
-    width: 50px;
-    height: 50px;
+    left: 280px;
+    width: 30px;
+    height: 30px;
     -webkit-animation: flower-3 15s ease-in-out normal infinite ;
     animation: flower-3 15s ease-in-out normal infinite;
 }
@@ -78,166 +78,93 @@ header {
     position: absolute;
     top: 0px;
     left: 25px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     -webkit-animation: flower-4 20s ease-in-out normal infinite ;
     animation: flower-4 20s ease-in-out normal infinite;
 }
 
-@-webkit-keyframes flower-1 {
-    0% {
-        transform: translateY(0);
-        transform: rotate(0deg);
-    }
-    40% {
-        transform: translateY(30px);
-        transform: rotate(40deg);
 
-    }
-    60% {
-        transform: translateY(120px);
-        transform: rotate(40deg);
-
-    }
-    80% {
-        transform: translateY(150px);
-        transform: rotate(40deg);
-
-    }
-    100% {
-        transform: translateY(170px);
-        transform: rotate(120deg);
-    }
-}
 
 @keyframes flower-1 {
     0% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
     40% {
-        transform: translateY(30px);
+        transform: translateY(56px) rotate(40deg);
     }
     60% {
-        transform: translateY(120px);
+        transform: translateY(112px) rotate(80deg);
     }
     80% {
-        transform: translateY(150px);
+        transform: translateY(168px) rotate(120deg);
     }
     100% {
-        transform: translateY(170px);
+        transform: translateY(224px) rotate(160deg);
     }
 }
 
-@-webkit-keyframes flower-2 {
-    0% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(50px);
-    }
-    60% {
-        transform: translateY(140px);
-    }
-    80% {
-        transform: translateY(160px);
-    }
-    100% {
-        transform: translateY(180px);
-    }
-}
+
 
 @keyframes flower-2 {
     0% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
     40% {
-        transform: translateY(50px);
+        transform: translateY(50px) rotate(40deg);
     }
     60% {
-        transform: translateY(140px);
+        transform: translateY(100px) rotate(80deg);
     }
     80% {
-        transform: translateY(160px);
+        transform: translateY(150px) rotate(120deg);
     }
     100% {
-        transform: translateY(180px);
+        transform: translateY(200px) rotate(160deg);
     }
 }
 
 
-@-webkit-keyframes flower-3 {
-    0% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(75px);
-    }
-    70% {
-        transform: translateY(130px);
-    }
-    80% {
-        transform: translateY(150px);
-    }
-    100% {
-        transform: translateY(180px);
-    }
-}
 
 @keyframes flower-3 {
     0% {
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
-    30% {
-        transform: translateY(75px);
+    20% {
+        transform: translateY(35px) rotate(40deg);
     }
-    70% {
-        transform: translateY(130px);
+    40% {
+        transform: translateY(70px) rotate(80deg);
+    }
+    60% {
+        transform: translateY(105px) rotate(120deg);
     }
     80% {
-        transform: translateY(150px);
+        transform: translateY(140px) rotate(120deg);
     }
+    
     100% {
-        transform: translateY(180px);
+        transform: translateY(175px) rotate(160deg);
     }
 }
 
-@-webkit-keyframes flower-4 {
-    0% {
-        transform: translateY(0);
-        transform: rotate(0deg);
-    }
-    30% {
-        transform: translateY(30px);
-    }
-    60% {
-        transform: translateY(110px);
-    }
-    80% {
-        transform: translateY(140px);
-    }
-    100% {
-        transform: translateY(170px);
-        transform: rotate(240deg);
-    }
-}
+
 
 @keyframes flower-4 {
     0% {
-        transform: translateY(0);
-        transform: rotate(0deg);
+        transform: translateY(0) rotate(0deg);
     }
-    30% {
-        transform: translateY(30px);
+    25% {
+        transform: translateY(60px) rotate(40deg);
     }
-    60% {
-        transform: translateY(110px);
+    50% {
+        transform: translateY(120px) rotate(80deg);
     }
-    80% {
-        transform: translateY(140px);
+    75% {
+        transform: translateY(180px) rotate(120deg);
     }
     100% {
-        transform: translateY(170px);
-        transform: rotate(240deg);
+        transform: translateY(240px) rotate(160deg);
     }
 }
 
@@ -245,42 +172,58 @@ header {
     .flower-1 {
      top: ;
     left: ;
+    width: 50px;
+    height: 50px;
     }
     
     .flower-2 {
     top: ;
     left: ;
+    width: 50px;
+    height: 50px;
     }
     
     .flower-3 {
     top: ;
     left: ;
+    width: 50px;
+    height: 50px;
     }
     
     .flower-4 {
     top: ;
     left: ;
+    width: 50px;
+    height: 50px;
     }
 }    
  @media only screen and (min-width: 60em) {
    .flower-1 {
     top: ;
     left: ;
+    width: 75px;
+    height: 75px;
     }
     
     .flower-2 {
     top: ;
     left: ;
+    width: 75px;
+    height: 75px;
     }
     
     .flower-3 {
     top: ;
     left: ;
+    width: 75px;
+    height: 75px;
     }
     
     .flower-4 {
     top: ;
     left: ;
+    width: 75px;
+    height: 75px;
     }
  }
      
