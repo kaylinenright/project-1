@@ -53,8 +53,8 @@ header {
     left: 360px;
     width: 50px;
     height: 50px;
-    -webkit-animation: flower-1 20s eae-in-out infinite;
-    animation: flower-1 20s ease-in-out infinite;
+    -webkit-animation: flower-1 10s eae-in-out normal  infinite;
+    animation: flower-1 10s ease-in-out normal infinite;
 }
 .flower-2 {
     position: absolute;
@@ -62,8 +62,8 @@ header {
     left: 50px;
     width: 75px;
     height: 50px;
-    -webkit-animation: flower-2 12s ease-in-out infinite alternate;
-    animation: flower-2 12s ease-in-out normal infinite;
+    -webkit-animation: flower-2 17s ease-in-out normal infinite ;
+    animation: flower-2 17s ease-in-out normal infinite;
 }
 .flower-3 {
     position: absolute;
@@ -71,8 +71,8 @@ header {
     left: 400px;
     width: 50px;
     height: 50px;
-    -webkit-animation: flower-3 12s ease-in-out infinite alternate;
-    animation: flower-3 12s ease-in-out normal infinite;
+    -webkit-animation: flower-3 15s ease-in-out normal infinite ;
+    animation: flower-3 15s ease-in-out normal infinite;
 }
 .flower-4 {
     position: absolute;
@@ -80,9 +80,36 @@ header {
     left: 25px;
     width: 50px;
     height: 50px;
-    -webkit-animation: flower-4 20s ease-in-out infinite alternate;
-    animation: flower-4 12s ease-in-out infinite;
+    -webkit-animation: flower-4 20s ease-in-out normal infinite ;
+    animation: flower-4 20s ease-in-out normal infinite;
 }
+
+@-webkit-keyframes flower-1 {
+    0% {
+        transform: translateY(0);
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: translateY(30px);
+        transform: rotate(40deg);
+
+    }
+    60% {
+        transform: translateY(120px);
+        transform: rotate(40deg);
+
+    }
+    80% {
+        transform: translateY(150px);
+        transform: rotate(40deg);
+
+    }
+    100% {
+        transform: translateY(170px);
+        transform: rotate(120deg);
+    }
+}
+
 @keyframes flower-1 {
     0% {
         transform: translateY(0);
@@ -100,6 +127,25 @@ header {
         transform: translateY(170px);
     }
 }
+
+@-webkit-keyframes flower-2 {
+    0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(50px);
+    }
+    60% {
+        transform: translateY(140px);
+    }
+    80% {
+        transform: translateY(160px);
+    }
+    100% {
+        transform: translateY(180px);
+    }
+}
+
 @keyframes flower-2 {
     0% {
         transform: translateY(0);
@@ -117,6 +163,26 @@ header {
         transform: translateY(180px);
     }
 }
+
+
+@-webkit-keyframes flower-3 {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(75px);
+    }
+    70% {
+        transform: translateY(130px);
+    }
+    80% {
+        transform: translateY(150px);
+    }
+    100% {
+        transform: translateY(180px);
+    }
+}
+
 @keyframes flower-3 {
     0% {
         transform: translateY(0);
@@ -134,20 +200,93 @@ header {
         transform: translateY(180px);
     }
 }
+
+@-webkit-keyframes flower-4 {
+    0% {
+        transform: translateY(0);
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: translateY(30px);
+    }
+    60% {
+        transform: translateY(110px);
+    }
+    80% {
+        transform: translateY(140px);
+    }
+    100% {
+        transform: translateY(170px);
+        transform: rotate(240deg);
+    }
+}
+
 @keyframes flower-4 {
     0% {
         transform: translateY(0);
+        transform: rotate(0deg);
     }
-    40% {
-        transform: translateY(50px);
+    30% {
+        transform: translateY(30px);
     }
     60% {
-        transform: translateY(140px);
+        transform: translateY(110px);
     }
     80% {
-        transform: translateY(160px);
+        transform: translateY(140px);
     }
     100% {
-        transform: translateY(180px);
+        transform: translateY(170px);
+        transform: rotate(240deg);
     }
 }
+
+@media only screen and (min-width: 38em) {
+    .flower-1 {
+     top: ;
+    left: ;
+    }
+    
+    .flower-2 {
+    top: ;
+    left: ;
+    }
+    
+    .flower-3 {
+    top: ;
+    left: ;
+    }
+    
+    .flower-4 {
+    top: ;
+    left: ;
+    }
+}    
+ @media only screen and (min-width: 60em) {
+   .flower-1 {
+    top: ;
+    left: ;
+    }
+    
+    .flower-2 {
+    top: ;
+    left: ;
+    }
+    
+    .flower-3 {
+    top: ;
+    left: ;
+    }
+    
+    .flower-4 {
+    top: ;
+    left: ;
+    }
+ }
+     
+     
+     
+     
+     
+     
+     
