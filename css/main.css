@@ -115,6 +115,8 @@ header {
     border: 1px;
     color: #BFBDBC;
     border: 1px solid #BFBDBC;
+    background-color: white;
+    z-index: 10;
     
 }
     
@@ -348,6 +350,10 @@ header {
     .button {
         width: 50px;
         height: 50px;
+    } 
+    
+    .bio {
+        margin: 0 10% 0 10%;
     }
 }
 
@@ -376,5 +382,9 @@ header {
     .button {
         width: 75px;
         height: 75px;
+    }
+    
+    .bio {
+         margin: 0 20% 0 20%;
     }
 }
