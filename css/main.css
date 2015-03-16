@@ -31,6 +31,32 @@ html {
 *::after {
     box-sizing: inherit;
 }
+.nav-a {
+    text-decoration: none;
+    font: Georgia,serif;
+    color: #F8988E;
+    list-style-type: none;
+    padding: none;
+    margin: none;
+}
+
+.panel {
+    padding: 1em;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 250ms linear;
+}
+
+.js-panel-expand {
+    max-height: 30em;
+}
+
+.burger {
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    border: none;
+}
 
 .header-title {
     position: relative;
