@@ -63,6 +63,15 @@ html {
     transition: 1s ease-in-out;
 }
 
+.js-box-show-hide {
+    transition: 1s ease-in-out;
+
+}
+
+.pic {
+    width: 20em;
+    transition: 1s ease-in-out;
+}
 .header-title {
     position: relative;
     font-family: 'Montez', cursive;
