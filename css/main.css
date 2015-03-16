@@ -38,22 +38,35 @@ html {
     list-style-type: none;
     padding: none;
     margin: none;
+    background-color: white;
 }
 
 .panel {
+    position: relative;
     max-height: 0;
     overflow: hidden;
     transition: all 300ms linear;
     z-index: 7;
 }
 
+.js-box-show-hide {
+    opacity: 0;
+}
 
+.js-box-show-hide-2 {
+    opacity: 0;
+}
+
+.js-box-show-hide-3 {
+    opacity: 0;
+}
 .js-panel-expand {
     max-height: 7em;
     z-index: 7;
 }
 
 .burger {
+    position: relative;
     height: 50px;
     width: 50px;
     text-decoration: none;
@@ -62,15 +75,80 @@ html {
     z-index: 7;
     transition: 1s ease-in-out;
 }
-
-.js-box-show-hide {
-    transition: 1s ease-in-out;
-
+  
+.btn-show-hide:hover {
+    color: #fff;
+    background-color: #BFBDBC;
+    transition: 100ms ease-in-out;
 }
+
+.btn-show-hide {
+  transition: all 250ms linear;
+  background-color: white;
+    font-size: 1em;
+    background-color: #F8988E;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    text-decoration: none;
+    margin: 0 0 1em;
+    font-family: Georgia,serif;
+}
+
+.portfolio {
+      transition: all 250ms linear;
+}
+
+.portfolio-2 {
+      transition: all 250ms linear;
+}
+
+.portfolio-3 {
+      transition: all 250ms linear;
+}
+
+.btn-2:hover {
+    color: #fff;
+    background-color: #BFBDBC;
+    transition: 100ms ease-in-out;
+}
+
+.btn-2 {
+  transition: all 250ms linear;
+  background-color: white;
+    font-size: 1em;
+    background-color: #F8988E;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    text-decoration: none;
+    margin: 0 0 1em;
+    font-family: Georgia,serif;
+}
+
+.btn-3:hover {
+    color: #fff;
+    background-color: #BFBDBC;
+    transition: 100ms ease-in-out;
+}
+
+.btn-3 {
+  transition: all 250ms linear;
+  background-color: white;
+    font-size: 1em;
+    background-color: #F8988E;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    text-decoration: none;
+    margin: 0 0 1em;
+    font-family: Georgia,serif;
+}
+
+
 
 .pic {
     width: 20em;
-    transition: 1s ease-in-out;
 }
 .header-title {
     position: relative;
