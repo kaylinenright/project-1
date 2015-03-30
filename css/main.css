@@ -44,14 +44,17 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    -webkit-perspective: 1px;
     perspective: 1px;
 }
 
 .parallax-group {
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
 .back {
+    -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     position: relative;
     top: calc(((100vh - 120vw) / 4) * -2);
@@ -59,6 +62,7 @@ body {
 }
 
 .middle {
+    -webkit-transform: translateZ(-0.5px);
     transform: translateZ(-0.5px);
     position: absolute;
     top: calc(((100vh - 300vw) / 4) * -2);
@@ -68,6 +72,7 @@ body {
     background-color: white;
     top: 500px;
     position: absolute;
+    width: 100%;
 }
 
 .nav-a {
