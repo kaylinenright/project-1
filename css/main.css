@@ -44,8 +44,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    
-    perspective: 1px;
+     perspective: 1px;
 }
 
 .parallax-group {
@@ -66,7 +65,7 @@ body {
 }
 
 .front {
-    background-color: darkgreen;
+    background-color: white;
     top: 500px;
     position: absolute;
 }
@@ -119,6 +118,8 @@ body {
     text-decoration: none;
     margin: 0 0 1em;
     font-family: Georgia,serif;
+   
+  
 }
 
 .portfolio {
