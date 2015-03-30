@@ -114,7 +114,8 @@ body {
     border: none;
     text-decoration: none;
     font-family: Georgia, serif;
-    
+    margin-right: 50%;
+    margin-left: 50%;
    
 }
 
@@ -165,7 +166,8 @@ body {
     padding: 15px 15px;
     border: none;
     text-decoration: none;
-    margin: 0 0 1em;
+    margin-right: 50%;
+    margin-left: 50%;
     font-family: Georgia, serif;
 }
 
@@ -184,7 +186,8 @@ body {
     padding: 15px 15px;
     border: none;
     text-decoration: none;
-    margin: 0 0 1em;
+    margin-right: 50%;
+    margin-left: 50%;
     font-family: Georgia, serif;
 }
 
