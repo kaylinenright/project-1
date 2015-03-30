@@ -515,6 +515,20 @@ header {
     .bio {
         margin: 0 10% 0 10%;
     }
+    
+    .back {
+    top: calc(((100vh - 120vw) / 4) * -2);
+    height: 60vw;
+    }
+
+    .middle {
+    top: calc(((100vh - 200vw) / 4) * -2);
+    }
+
+    .front {
+    top: 600px;
+    }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -550,5 +564,18 @@ header {
     
     .header-title {
         font-size: 5rem;
+    }
+    
+     .back {
+    top: calc(((100vh - 120vw) / 4) * -2);
+    height: 60vw;
+    }
+
+    .middle {
+    top: calc(((100vh - 150vw) / 4) * -2);
+    }
+
+    .front {
+    top: 900px;
     }
 }
