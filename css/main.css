@@ -113,10 +113,9 @@ body {
     padding: 15px 15px;
     border: none;
     text-decoration: none;
-    margin: 0 0 1em;
     font-family: Georgia, serif;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    
+   
 }
 
 .portfolio {
@@ -189,7 +188,9 @@ body {
     font-family: Georgia, serif;
 }
 
-.box {} .pic {
+.box {
+} 
+.pic {
     width: 100%;
 }
 .header-title {
