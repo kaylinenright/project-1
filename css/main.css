@@ -284,6 +284,7 @@ header {
     width: 700px;
     margin-left: 50%;
     margin-right: 50%;
+    padding: 4rem;
 }
 
 #drop-2 {
@@ -322,14 +323,31 @@ header {
 }
 
 #bucket {
+    animation: watering 2s ease-in-out alternate infinite;
 }
 
 
 
+ 
+@-webkit-keyframes watering {
+    0% {
+        -webkit-transform: rotate(0);
+    }
 
+    100% {
+        -webkit-transform: rotate(5deg);  
+    }
+}
 
+@keyframes watering {
+    0% {
+        transform: rotate(0);
+    }
 
-
+    100% {
+        transform: rotate(5deg);  
+    }
+}
 
 
 
