@@ -280,22 +280,31 @@ header {
     margin: none;
 }
 
+
+
+
+
+
+
+
+
+
 .water-bucket {
     width: 300px;
     padding: 10px;
 }
 
-#drop-2 {
+.js-active #drop-2 {
      -webkit-animation: flop-1 2s ease alternate infinite;
     animation: flop-1 2s ease alternate infinite;
 }
 
-#drop_1_ {
+.js-active #drop_1_ {
      -webkit-animation: flop-1 2s ease alternate infinite;
     animation: flop-1 2s ease alternate infinite;
 }
 
-#drop_2_ {
+.js-active #drop_2_ {
      -webkit-animation: flop-1 2s ease alternate infinite;
         animation: flop-1 2s ease alternate infinite;
 
@@ -320,7 +329,7 @@ header {
     }
 }
 
-#bucket {
+.js-active #bucket {
     -webkit-animation: watering 2s ease-in-out alternate infinite;
     animation: watering 2s ease-in-out alternate infinite;
 

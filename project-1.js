@@ -6,6 +6,7 @@ var $btn2 = $(".btn-2");
 var $portfolio = $(".portfolio");
 var $portfolio2 = $(".portfolio-2");
 var $portfolio3 = $(".portfolio-3");
+var $dropBucket = $(".drop-bucket");
 
 
 
@@ -25,3 +26,17 @@ $btn2.on("click", function () {
 $btn3.on("click", function () {
     $portfolio3.toggleClass("js-box-show-hide");
 });
+
+
+
+
+
+$dropBucket.waypoint(function (direction) {
+    $dropBucket.toggleClass("js-active");  
+}, { offset: "90%", context: '.wrapper' } ) ;
+
+
+
+   
+
+
