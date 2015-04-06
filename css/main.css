@@ -281,10 +281,10 @@ header {
 }
 
 .water-bucket {
-    width: 700px;
-    margin-left: 50%;
-    margin-right: 50%;
-    padding: 4rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 #drop-2 {
@@ -590,6 +590,10 @@ header {
     .front {
         top: 600px;
     }
+    
+    .water-bucket {
+    width: 550px;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -633,4 +637,9 @@ header {
     .front {
         top: 900px;
     }
+    
+    .water-bucket {
+    width: 700px;
+    padding: 4rem;
+}
 }
