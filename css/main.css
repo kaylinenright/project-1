@@ -280,6 +280,14 @@ header {
     margin: none;
 }
 
+.water-bucket {
+    width: 700px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+
 @-webkit-keyframes flower-1 {
     0% {
         -webkit-transform: translateY(0) rotate(0deg);
