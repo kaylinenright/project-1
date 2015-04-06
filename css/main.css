@@ -288,6 +288,49 @@ header {
 
 
 
+#drop-2 {
+    animation: flop-1 1s ease alternate infinite;
+}
+
+@keyframes flop-1 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(35px);
+    }
+}
+
+
+#drop_1_ {
+    animation: flop-1 1s ease alternate infinite;
+}
+
+
+#drop_2_ {
+    animation: flop-1 1s ease alternate infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @-webkit-keyframes flower-1 {
     0% {
         -webkit-transform: translateY(0) rotate(0deg);
