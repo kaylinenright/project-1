@@ -287,15 +287,19 @@ header {
 }
 
 #drop-2 {
+     -webkit-animation: flop-1 2s ease alternate infinite;
     animation: flop-1 2s ease alternate infinite;
 }
 
 #drop_1_ {
+     -webkit-animation: flop-1 2s ease alternate infinite;
     animation: flop-1 2s ease alternate infinite;
 }
 
 #drop_2_ {
-    animation: flop-1 2s ease alternate infinite;
+     -webkit-animation: flop-1 2s ease alternate infinite;
+        animation: flop-1 2s ease alternate infinite;
+
 }
 
 
