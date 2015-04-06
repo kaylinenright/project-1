@@ -323,7 +323,9 @@ header {
 }
 
 #bucket {
+    -webkit-animation: watering 2s ease-in-out alternate infinite;
     animation: watering 2s ease-in-out alternate infinite;
+
 }
 
 
