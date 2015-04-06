@@ -9,7 +9,6 @@ var $portfolio3 = $(".portfolio-3");
 var $dropBucket = $(".drop-bucket");
 
 
-
 $burger.on ('click', function () {
     $panel.toggleClass('js-panel-expand');
 });
@@ -26,10 +25,6 @@ $btn2.on("click", function () {
 $btn3.on("click", function () {
     $portfolio3.toggleClass("js-box-show-hide");
 });
-
-
-
-
 
 $dropBucket.waypoint(function (direction) {
     $dropBucket.toggleClass("js-active");  
