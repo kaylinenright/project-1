@@ -630,7 +630,7 @@ header {
     }
     
     .water-bucket {
-    width: 700px;
-    padding: 4rem;
-}
+        width: 700px;
+        padding: 4rem;
+    }
 }
