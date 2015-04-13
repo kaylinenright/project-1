@@ -29,9 +29,3 @@ $btn3.on("click", function () {
 $dropBucket.waypoint(function (direction) {
     $dropBucket.toggleClass("js-active");  
 }, { offset: "90%", context: '.wrapper' } ) ;
-
-
-
-   
-
-
