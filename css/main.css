@@ -231,7 +231,7 @@ header {
     left: 230px;
     width: 25px;
     height: 25px;
-    -webkit-animation: flower-1 10s eae-in-out normal infinite;
+    -webkit-animation: flower-1 10s ease-in-out normal infinite;
     animation: flower-1 10s ease-in-out normal infinite;
     z-index: 4;
 }
