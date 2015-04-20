@@ -80,8 +80,6 @@ body {
     font: Georgia, serif;
     color: #F8988E;
     list-style-type: none;
-    padding: none;
-    margin: none;
     background-color: white;
 }
 
@@ -220,9 +218,7 @@ body {
 }
 
 header {
-    background-image: image(..//images/1.jpg);
     width: 100%;
-    xheight: 100vh;
 }
 
 .flower-1 {
@@ -276,8 +272,6 @@ header {
     border: 1px solid #BFBDBC;
     background-color: white;
     z-index: 10;
-    padding: none;
-    margin: none;
 }
 
 .water-bucket {
